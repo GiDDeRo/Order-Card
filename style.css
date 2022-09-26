@@ -78,6 +78,10 @@ article p {
     color: hsl(245, 75%, 52%);
     font-weight: 700;
 }
+.subscription a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.7);
+}
 button {
     width: 100%;
     padding: 0.75rem 0;
@@ -91,11 +95,15 @@ button {
 }
 button:hover {
     cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.7);
 }
 .cancel {
     color: hsl(224, 23%, 55%);
     font-size: 13px;
     font-weight: 700;
+}
+.cancel:hover {
+    color: black;
 }
 footer {
     width: 100%;
